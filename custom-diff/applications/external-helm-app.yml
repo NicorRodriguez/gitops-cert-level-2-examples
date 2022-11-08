@@ -25,6 +25,5 @@ spec:
   ignoreDifferences:
   - group: "*"
     kind: "*"
-    managedFieldsManagers:
-    - Deployment
-    - Secret
+    jsonPointers:
+    - /spec/replicas
