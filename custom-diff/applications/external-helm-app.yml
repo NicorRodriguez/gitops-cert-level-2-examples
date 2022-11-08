@@ -25,5 +25,4 @@ spec:
   - group: apps
     kind: Deployment
     jsonPointers:
-    - /spec/replicas
-    - /metadata/annotations/creation
+      - /metadata/annotations/creation
